@@ -1,6 +1,7 @@
 //a[i] * b[i] > b[i+1]则后一个人拿得多
 //经过数学推导，a[i] * b[i]越大，越往后放
 //数据范围：本题ll也不够，必须高精度！！！（学）
+//以下是60分代码
 
 #include <bits/stdc++.h>
 using namespace std;
