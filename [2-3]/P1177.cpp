@@ -1,3 +1,6 @@
+//快速排序，先取a[mid]，把大于它的放右边，小于的放左边。
+//这样操作完后a[mid]可能就不在mid位置了，以它变化后的位置再分隔成两个小区间去递归。
+
 #include <bits/stdc++.h>
 using namespace std;
 
