@@ -96,3 +96,13 @@ int main(){
     cout << ans;
     return 0;
 }
+
+// OI-wiki参考代码片段：
+// for (int i = 0; i < n; ++i) scanf("%d", a + i);
+// memset(dp, 0x1f, sizeof dp);
+// mx = dp[0];
+// for (int i = 0; i < n; ++i) {
+//   *std::upper_bound(dp, dp + n, a[i]) = a[i];
+// }
+// ans = 0;
+// while (dp[ans] != mx) ++ans;
