@@ -6,6 +6,7 @@ using namespace std;
 int t[105],v[105];//t记录时间（代价），v记录价值（收益）
 int f[1005];//f[i]表示当总时间为i时的最大价值。
 //这个数组滚动使用，也就是多次被更新覆盖。
+//这个数组一开始初始就默认是0，不用特意初始化。
 
 int max(int a,int b){
     return a > b ? a : b;
